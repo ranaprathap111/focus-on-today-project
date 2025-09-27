@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(185, 214, 161,0.4);
+}
+.focus_textcolour{
+    color: rgb(42, 174, 42);
+}
+.sun-icon{
+    width:40px;
+    vertical-align: middle;
+}
+.heading{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+}
+.app-container{
+    
+    background-color: #FBFBFB;
+    max-width: 700px;
+    margin-inline: auto;
+    border-radius: 32px;
+    padding: 32px 48px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.title{  
+    font-size: 32px; 
+}
+
+.completed .custom_checkbox{
+    background:rgb(26, 191, 26);
+    border:rgb(26, 191, 26);;
+}
+.completed .check_icon{
+    display: block;
+}
+
+.completed .input_text{
+    color: rgb(20, 138, 20);
+    text-decoration-line: line-through;
+
+}
+
+.show-error .label-setgoal{
+  display: block;  
+}
+
+
+@media(max-width:800px){ 
+    title{
+        font-size: 20px;
+    }
+    .app-container{
+        padding: 12px 20px;
+    }
+}
+.labeltext{
+    
+    color: rgb(132, 129, 129);
+   
+}
+.progress-bar{
+    height:30px;
+    background-color: rgb(209, 237, 209);
+    border-radius:20px;
+}
+.progress-value{
+    width: 0;/* first width:66%*/
+    height:100%;
+    background-color: rgb(19, 136, 19);
+    border-radius:20px;
+    /* padding-left: 56px; */
+    color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    /* width: 0;or visibility:hidden(linenumber1)*/
+    overflow: hidden;
+    transition: 0.3s;
+}
+.progress-value span{
+    padding-left: 56px;
+    width: max-content;
+}
+
+.label-setgoal{
+    color:rgb(231, 113, 113);
+    margin-block: 20px;  
+    display:none;
+
+}
+.addgoal1{
+    background-color: #faf9f9;
+    height:80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    padding: 0px 22px;
+    background-color: white  ;
+    border: 1px solid rgba( 97, 72 ,28 , 0.3);
+    margin-top: 46px;
+}
+.custom_checkbox{
+    width:24px;
+    height:24px;
+    border: 2px solid rgba( 97, 72 ,28 , 0.3);
+    border-radius: 50%;
+    margin-right:20px;
+    cursor: pointer; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_text{
+    font-size: 20px;
+    align-self: stretch;
+    flex-grow: 1;
+    font-family: inherit;
+    border:none;  
+    outline: none;
+    border-radius: 10px;
+}
+.input_text::placeholder{
+    color: #c8c6c6;
+    font-size: 15px;
+    font-weight: 10px;
+    
+    
+}
+.quote{
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.made-with{
+    font-weight: 300;
+    color: rgb(108, 106, 106);
+    text-align: center;
+    margin-top: 50px;
+}
